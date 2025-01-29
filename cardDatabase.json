@@ -1,0 +1,2337 @@
+[
+    {
+        "Actions": [
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 2,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 1,
+                "Range_left": [
+                    0
+                ],
+                "Range_right": [
+                    0
+                ],
+                "Type": "BLEED"
+            }
+        ],
+        "Cost": 2,
+        "Count": 3,
+        "ID": 0,
+        "Locked": false,
+        "Name": "Smite",
+        "Rarity": "Common",
+        "Shape": "SQR",
+        "Unlocked_Count": 3
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 3,
+                "Type": "PARRY"
+            },
+            {
+                "Amount": 2,
+                "Type": "ARMOR"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 3,
+        "Count": 2,
+        "ID": 1,
+        "Locked": false,
+        "Name": "Parry_THIS_FILTHY_CASUAL",
+        "Rarity": "Uncommon",
+        "Shape": "BIGI",
+        "Unlocked_Count": 2
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    2
+                ],
+                "Type": "POISON"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 2,
+                "Ignore": true,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    2
+                ],
+                "Type": "DMG_IGN"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 3,
+        "Count": 3,
+        "ID": 2,
+        "Locked": true,
+        "Name": "Poison Shot",
+        "Rarity": "Uncommon",
+        "Shape": "PNS",
+        "Unlocked_Count": 1
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 4,
+                "Range_left": [
+                    0,
+                    1
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "BOOST"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 6,
+                "Range_left": [
+                    0,
+                    1
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            }
+        ],
+        "Cost": 3,
+        "Count": 2,
+        "ID": 3,
+        "Locked": true,
+        "Name": "Sharpen Sword",
+        "Rarity": "Rare",
+        "Shape": "L",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 5,
+                "Type": "MANA"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 2,
+        "Count": 3,
+        "ID": 4,
+        "Locked": false,
+        "Name": "Focus",
+        "Rarity": "Common",
+        "Shape": "KRISKROS",
+        "Unlocked_Count": 3
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 4,
+                "Range_left": [
+                    0
+                ],
+                "Range_right": [
+                    0
+                ],
+                "Type": "FREEZE"
+            },
+            {
+                "Amount": 6,
+                "Type": "ARMOR"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 5,
+        "Count": 1,
+        "ID": 5,
+        "Locked": true,
+        "Name": "Armor of Frost",
+        "Rarity": "Epic",
+        "Shape": "ZR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 2,
+                "Range_left": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 2,
+                "Range_left": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "LIFE_STEAL"
+            }
+        ],
+        "Cost": 6,
+        "Count": 1,
+        "ID": 6,
+        "Locked": false,
+        "Name": "Elas' Secret",
+        "Rarity": "Common",
+        "Shape": "ZIGZAG",
+        "Unlocked_Count": 1
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 2,
+                "Range_left": [
+                    0
+                ],
+                "Range_right": [
+                    0
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 2,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    1
+                ],
+                "Type": "FREEZE"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 3,
+        "Count": 2,
+        "ID": 7,
+        "Locked": true,
+        "Name": "Shield Bash",
+        "Rarity": "Uncommon",
+        "Shape": "LR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    1
+                ],
+                "Range_right": [
+                    0,
+                    0
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 4,
+                "Type": "PARRY"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 4,
+        "Count": 2,
+        "ID": 8,
+        "Locked": true,
+        "Name": "Riposte",
+        "Rarity": "Rare",
+        "Shape": "Z",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 4,
+                "Range_left": [
+                    0
+                ],
+                "Range_right": [
+                    0
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 4,
+        "Count": 3,
+        "ID": 9,
+        "Locked": true,
+        "Name": "Slash",
+        "Rarity": "Uncommon",
+        "Shape": "ZR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    1
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "POISON"
+            },
+            {
+                "Amount": 5,
+                "Type": "HEAL"
+            }
+        ],
+        "Cost": 4,
+        "Count": 3,
+        "ID": 10,
+        "Locked": false,
+        "Name": "Bait",
+        "Rarity": "Common",
+        "Shape": "SQR",
+        "Unlocked_Count": 3
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 3,
+        "Count": 1,
+        "ID": 11,
+        "Locked": false,
+        "Name": "Wind Cutter",
+        "Rarity": "Common",
+        "Shape": "L",
+        "Unlocked_Count": 1
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 2,
+                "Range_left": [
+                    0
+                ],
+                "Range_right": [
+                    0
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 1,
+        "Count": 1,
+        "ID": 12,
+        "Locked": false,
+        "Name": "Basic Strike",
+        "Rarity": "Common",
+        "Shape": "SQR",
+        "Unlocked_Count": 1
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 2,
+                "Type": "HEAL"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 2,
+        "Count": 1,
+        "ID": 13,
+        "Locked": false,
+        "Name": "Healing Touch",
+        "Rarity": "Common",
+        "Shape": "Z",
+        "Unlocked_Count": 1
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 4,
+                "Range_left": [
+                    0,
+                    1
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    1,
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 4,
+        "Count": 2,
+        "ID": 14,
+        "Locked": true,
+        "Name": "Wind Slash",
+        "Rarity": "Uncommon",
+        "Shape": "ZR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 4,
+                "Range_left": [
+                    0,
+                    1
+                ],
+                "Range_right": [
+                    1,
+                    2
+                ],
+                "Type": "POISON"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 4,
+        "Count": 3,
+        "ID": 15,
+        "Locked": true,
+        "Name": "Poison Cloud",
+        "Rarity": "Uncommon",
+        "Shape": "BIGI",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 5,
+                "Range_left": [
+                    0,
+                    1,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    1
+                ],
+                "Type": "FREEZE"
+            },
+            {
+                "Amount": 2,
+                "Range_left": [
+                    0
+                ],
+                "Range_right": [
+                    0
+                ],
+                "Type": "LIFE_STEAL"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 5,
+        "Count": 3,
+        "ID": 16,
+        "Locked": true,
+        "Name": "Thunder Blast",
+        "Rarity": "Rare",
+        "Shape": "PNS",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 6,
+                "Range_left": [
+                    0,
+                    1,
+                    2,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 5,
+                "Range_left": [
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    1,
+                    2
+                ],
+                "Type": "FIRE"
+            },
+            {
+                "Amount": 4,
+                "Range_left": [
+                    2,
+                    3
+                ],
+                "Range_right": [
+                    2,
+                    3
+                ],
+                "Type": "POISON"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 6,
+        "Count": 2,
+        "ID": 17,
+        "Locked": true,
+        "Name": "Inferno Wave",
+        "Rarity": "Epic",
+        "Shape": "ZIGZAG",
+        "Unlocked_Count": 1
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 6,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    1,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 5,
+                "Range_left": [
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    1,
+                    2
+                ],
+                "Type": "FREEZE"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "LIFE_STEAL"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 6,
+        "Count": 2,
+        "ID": 18,
+        "Locked": true,
+        "Name": "Frost Shard",
+        "Rarity": "Epic",
+        "Shape": "BIGI",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 7,
+                "Range_left": [
+                    0,
+                    1
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 6,
+                "Type": "ARMOR"
+            },
+            {
+                "Amount": 5,
+                "Type": "MANA"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 7,
+        "Count": 3,
+        "ID": 19,
+        "Locked": true,
+        "Name": "Time Shift",
+        "Rarity": "Epic",
+        "Shape": "LR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 10,
+                "Type": "ARMOR"
+            },
+            {
+                "Amount": 6,
+                "Type": "HEAL"
+            },
+            {
+                "Amount": 4,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "LIFE_STEAL"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 8,
+        "Count": 2,
+        "ID": 20,
+        "Locked": true,
+        "Name": "Divine Aegis",
+        "Rarity": "Legendary",
+        "Shape": "SQR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 10,
+                "Range_left": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 8,
+                "Range_left": [
+                    1,
+                    2,
+                    3
+                ],
+                "Range_right": [
+                    1,
+                    2,
+                    3
+                ],
+                "Type": "FIRE"
+            },
+            {
+                "Amount": 6,
+                "Type": "MANA"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 9,
+        "Count": 2,
+        "ID": 21,
+        "Locked": true,
+        "Name": "Celestial Ray",
+        "Rarity": "Legendary",
+        "Shape": "ZR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 4,
+                "Range_left": [
+                    0,
+                    1
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 2,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    2
+                ],
+                "Type": "FIRE"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 4,
+        "Count": 3,
+        "ID": 22,
+        "Locked": true,
+        "Name": "Flame Touch",
+        "Rarity": "Uncommon",
+        "Shape": "ZIGZAG",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 6,
+                "Range_left": [
+                    0,
+                    1,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 4,
+                "Type": "MANA"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 5,
+        "Count": 4,
+        "ID": 23,
+        "Locked": true,
+        "Name": "Arcane Blast",
+        "Rarity": "Uncommon",
+        "Shape": "ZR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 7,
+                "Range_left": [
+                    0,
+                    1
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 3,
+                "Type": "HEAL"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 5,
+        "Count": 2,
+        "ID": 24,
+        "Locked": true,
+        "Name": "Holy Smite",
+        "Rarity": "Rare",
+        "Shape": "BIGI",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 5,
+                "Range_left": [
+                    0,
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    1,
+                    2
+                ],
+                "Type": "FREEZE"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 6,
+        "Count": 3,
+        "ID": 25,
+        "Locked": true,
+        "Name": "Frostbite Arrow",
+        "Rarity": "Rare",
+        "Shape": "SQR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 6,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    2
+                ],
+                "Type": "POISON"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "LIFE_STEAL"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 5,
+        "Count": 3,
+        "ID": 26,
+        "Locked": true,
+        "Name": "Shadow Strike",
+        "Rarity": "Rare",
+        "Shape": "L",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 8,
+                "Type": "ARMOR"
+            },
+            {
+                "Amount": 4,
+                "Type": "PARRY"
+            },
+            {
+                "Amount": 5,
+                "Type": "HEAL"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 6,
+        "Count": 2,
+        "ID": 27,
+        "Locked": true,
+        "Name": "Arcane Shield",
+        "Rarity": "Epic",
+        "Shape": "ZR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 10,
+                "Type": "ARMOR"
+            },
+            {
+                "Amount": 8,
+                "Type": "HEAL"
+            },
+            {
+                "Amount": 5,
+                "Type": "MANA"
+            },
+            {
+                "Amount": 4,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "LIFE_STEAL"
+            }
+        ],
+        "Cost": 7,
+        "Count": 2,
+        "ID": 28,
+        "Locked": true,
+        "Name": "Divine Blessing",
+        "Rarity": "Legendary",
+        "Shape": "BIGI",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 8,
+                "Range_left": [
+                    0,
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 6,
+                "Range_left": [
+                    1,
+                    2,
+                    3
+                ],
+                "Range_right": [
+                    1,
+                    2,
+                    3
+                ],
+                "Type": "FIRE"
+            },
+            {
+                "Amount": 7,
+                "Range_left": [
+                    1,
+                    2,
+                    3
+                ],
+                "Range_right": [
+                    1,
+                    2,
+                    3
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 8,
+        "Count": 4,
+        "ID": 29,
+        "Locked": true,
+        "Name": "Meteor Shower",
+        "Rarity": "Legendary",
+        "Shape": "SQR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 10,
+                "Range_left": [
+                    0,
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 4,
+                "Range_left": [
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    1,
+                    2
+                ],
+                "Type": "BLEED"
+            },
+            {
+                "Amount": 6,
+                "Type": "HEAL"
+            },
+            {
+                "Amount": 5,
+                "Type": "MANA"
+            }
+        ],
+        "Cost": 8,
+        "Count": 3,
+        "ID": 30,
+        "Locked": true,
+        "Name": "Celestial Judgment",
+        "Rarity": "Legendary",
+        "Shape": "ZIGZAG",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 6,
+                "Range_left": [
+                    0,
+                    1,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 4,
+                "Range_left": [
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    1,
+                    2
+                ],
+                "Type": "FIRE"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    2
+                ],
+                "Range_right": [
+                    2
+                ],
+                "Type": "POISON"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 4,
+        "Count": 3,
+        "ID": 31,
+        "Locked": true,
+        "Name": "Fireball",
+        "Rarity": "Rare",
+        "Shape": "BIGI",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 4,
+                "Type": "HEAL"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 3,
+                "Type": "HEAL"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 5,
+        "Count": 4,
+        "ID": 32,
+        "Locked": true,
+        "Name": "Healing Rain",
+        "Rarity": "Uncommon",
+        "Shape": "SQR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 8,
+                "Range_left": [
+                    0,
+                    1,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 4,
+                "Range_left": [
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    1,
+                    2
+                ],
+                "Type": "FREEZE"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "LIFE_STEAL"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 6,
+        "Count": 2,
+        "ID": 33,
+        "Locked": true,
+        "Name": "Thunder Strike",
+        "Rarity": "Epic",
+        "Shape": "Z",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 5,
+                "Type": "ARMOR"
+            },
+            {
+                "Amount": 3,
+                "Type": "PARRY"
+            },
+            {
+                "Amount": 3,
+                "Type": "ARMOR"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 4,
+        "Count": 3,
+        "ID": 34,
+        "Locked": true,
+        "Name": "Mirror Image",
+        "Rarity": "Uncommon",
+        "Shape": "ZR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 6,
+                "Type": "ARMOR"
+            },
+            {
+                "Amount": 4,
+                "Type": "MANA"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    1,
+                    2
+                ],
+                "Type": "BLEED"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 6,
+        "Count": 3,
+        "ID": 35,
+        "Locked": true,
+        "Name": "Dark Veil",
+        "Rarity": "Epic",
+        "Shape": "SQR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 5,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 4,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    2
+                ],
+                "Type": "FIRE"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 5,
+        "Count": 3,
+        "ID": 36,
+        "Locked": true,
+        "Name": "Flame Eruption",
+        "Rarity": "Uncommon",
+        "Shape": "L",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 7,
+                "Range_left": [
+                    0,
+                    1,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 5,
+                "Range_left": [
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    1,
+                    2
+                ],
+                "Type": "FREEZE"
+            },
+            {
+                "Amount": 4,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "LIFE_STEAL"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 7,
+        "Count": 3,
+        "ID": 37,
+        "Locked": true,
+        "Name": "Thunderstorm",
+        "Rarity": "Epic",
+        "Shape": "BIGI",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 7,
+                "Range_left": [
+                    0,
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 3,
+                "Type": "MANA"
+            },
+            {
+                "Amount": 4,
+                "Range_left": [
+                    2
+                ],
+                "Range_right": [
+                    2
+                ],
+                "Type": "BLEED"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 5,
+        "Count": 3,
+        "ID": 38,
+        "Locked": true,
+        "Name": "Void Pulse",
+        "Rarity": "Rare",
+        "Shape": "SQR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 4,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 2,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    2
+                ],
+                "Type": "LIFE_STEAL"
+            }
+        ],
+        "Cost": 4,
+        "Count": 3,
+        "ID": 39,
+        "Locked": true,
+        "Name": "Spectral Slash",
+        "Rarity": "Uncommon",
+        "Shape": "ZR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0
+                ],
+                "Range_right": [
+                    0
+                ],
+                "Type": "FREEZE"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 2,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 3,
+        "Count": 2,
+        "ID": 40,
+        "Locked": true,
+        "Name": "Frost Shock",
+        "Rarity": "Common",
+        "Shape": "L",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 6,
+                "Type": "ARMOR"
+            },
+            {
+                "Amount": 5,
+                "Type": "MANA"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "LIFE_STEAL"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 6,
+        "Count": 1,
+        "ID": 41,
+        "Locked": true,
+        "Name": "Mana Shield",
+        "Rarity": "Epic",
+        "Shape": "BIGI",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 2,
+                "Range_left": [
+                    0
+                ],
+                "Range_right": [
+                    0
+                ],
+                "Type": "FREEZE"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 4,
+                "Type": "MANA"
+            },
+            {
+                "Amount": 2,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    2
+                ],
+                "Type": "BLEED"
+            }
+        ],
+        "Cost": 4,
+        "Count": 3,
+        "ID": 42,
+        "Locked": true,
+        "Name": "Blinding Flash",
+        "Rarity": "Uncommon",
+        "Shape": "SQR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 5,
+                "Range_left": [
+                    0,
+                    1,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Amount": 3,
+                "Type": "MANA"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 5,
+        "Count": 2,
+        "ID": 43,
+        "Locked": true,
+        "Name": "Arcane Flare",
+        "Rarity": "Rare",
+        "Shape": "ZR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 4,
+                "Type": "HEAL"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 3,
+        "Count": 2,
+        "ID": 44,
+        "Locked": false,
+        "Name": "Healing Ray",
+        "Rarity": "Common",
+        "Shape": "SQR",
+        "Unlocked_Count": 2
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 6,
+                "Range_left": [
+                    0,
+                    1,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    1,
+                    2
+                ],
+                "Type": "POISON"
+            },
+            {
+                "Amount": 4,
+                "Range_left": [
+                    2
+                ],
+                "Range_right": [
+                    3
+                ],
+                "Type": "FIRE"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 7,
+        "Count": 1,
+        "ID": 45,
+        "Locked": true,
+        "Name": "Magma Burst",
+        "Rarity": "Epic",
+        "Shape": "BIGI",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 4,
+                "Range_left": [
+                    0
+                ],
+                "Range_right": [
+                    0
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 4,
+                "Type": "ARMOR"
+            },
+            {
+                "Amount": 3,
+                "Type": "PARRY"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 4,
+        "Count": 3,
+        "ID": 46,
+        "Locked": true,
+        "Name": "Shield Charge",
+        "Rarity": "Uncommon",
+        "Shape": "LR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 10,
+                "Type": "ARMOR"
+            },
+            {
+                "Amount": 6,
+                "Type": "MANA"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 8,
+        "Count": 1,
+        "ID": 47,
+        "Locked": true,
+        "Name": "Mystic Shield",
+        "Rarity": "Legendary",
+        "Shape": "PNS",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 7,
+                "Range_left": [
+                    0,
+                    1,
+                    2,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 5,
+                "Range_left": [
+                    1,
+                    2
+                ],
+                "Range_right": [
+                    1,
+                    2
+                ],
+                "Type": "FIRE"
+            },
+            {
+                "Amount": 4,
+                "Range_left": [
+                    2,
+                    3
+                ],
+                "Range_right": [
+                    2,
+                    3
+                ],
+                "Type": "POISON"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 6,
+        "Count": 3,
+        "ID": 48,
+        "Locked": true,
+        "Name": "Infernal Rain",
+        "Rarity": "Epic",
+        "Shape": "ZIGZAG",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 6,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 4,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    2
+                ],
+                "Type": "FIRE"
+            },
+            {
+                "Amount": 2,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "LIFE_STEAL"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 6,
+        "Count": 2,
+        "ID": 49,
+        "Locked": true,
+        "Name": "Flame Wave",
+        "Rarity": "Rare",
+        "Shape": "L",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 4,
+                "Range_left": [
+                    0
+                ],
+                "Range_right": [
+                    0
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "LIFE_STEAL"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 4,
+        "Count": 3,
+        "ID": 50,
+        "Locked": true,
+        "Name": "Vampiric Touch",
+        "Rarity": "Uncommon",
+        "Shape": "ZR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 4,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    2
+                ],
+                "Type": "POISON"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 4,
+        "Count": 3,
+        "ID": 51,
+        "Locked": true,
+        "Name": "Poisonous Strike",
+        "Rarity": "Uncommon",
+        "Shape": "L",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 5,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    2
+                ],
+                "Type": "BLEED"
+            },
+            {
+                "Amount": 3,
+                "Type": "PARRY"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 5,
+        "Count": 2,
+        "ID": 52,
+        "Locked": true,
+        "Name": "Blade of Fury",
+        "Rarity": "Rare",
+        "Shape": "ZR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 6,
+                "Range_left": [
+                    0,
+                    1,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 5,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    1
+                ],
+                "Type": "FREEZE"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0
+                ],
+                "Range_right": [
+                    0
+                ],
+                "Type": "LIFE_STEAL"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 6,
+        "Count": 2,
+        "ID": 53,
+        "Locked": true,
+        "Name": "Frost Nova",
+        "Rarity": "Epic",
+        "Shape": "BIGI",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 3,
+                "Range_left": [
+                    0,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 2,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    2
+                ],
+                "Type": "FIRE"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    2
+                ],
+                "Range_right": [
+                    3
+                ],
+                "Type": "BLEED"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 4,
+        "Count": 3,
+        "ID": 54,
+        "Locked": true,
+        "Name": "Flame Lash",
+        "Rarity": "Uncommon",
+        "Shape": "L",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 5,
+                "Type": "PARRY"
+            },
+            {
+                "Amount": 8,
+                "Type": "ARMOR"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 6,
+        "Count": 1,
+        "ID": 55,
+        "Locked": true,
+        "Name": "Guarding Shield",
+        "Rarity": "Legendary",
+        "Shape": "PNS",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 6,
+                "Range_left": [
+                    0,
+                    1,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "DMG"
+            },
+            {
+                "Amount": 5,
+                "Range_left": [
+                    1
+                ],
+                "Range_right": [
+                    2
+                ],
+                "Type": "FIRE"
+            },
+            {
+                "Amount": 3,
+                "Range_left": [
+                    2
+                ],
+                "Range_right": [
+                    3
+                ],
+                "Type": "BLEED"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 7,
+        "Count": 2,
+        "ID": 56,
+        "Locked": true,
+        "Name": "Infernal Howl",
+        "Rarity": "Epic",
+        "Shape": "ZR",
+        "Unlocked_Count": 0
+    },
+    {
+        "Actions": [
+            {
+                "Amount": 5,
+                "Range_left": [
+                    0,
+                    1,
+                    0
+                ],
+                "Range_right": [
+                    0,
+                    1,
+                    2
+                ],
+                "Type": "LIFE_STEAL"
+            },
+            {
+                "Amount": 4,
+                "Type": "HEAL"
+            },
+            {
+                "Type": "Empty"
+            },
+            {
+                "Type": "Empty"
+            }
+        ],
+        "Cost": 5,
+        "Count": 2,
+        "ID": 57,
+        "Locked": true,
+        "Name": "Life Essence",
+        "Rarity": "Rare",
+        "Shape": "BIGI",
+        "Unlocked_Count": 0
+    }
+]

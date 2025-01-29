@@ -1,0 +1,707 @@
+[
+  {
+    "Name": "Broken_sword",
+    "ID": 0,
+    "Rarity": "Common",
+    "Cooldown": "ROUND",
+    "Target": "Random",
+    "Stats": [
+      {
+        "Type": "Damage",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Wooden_shield",
+    "ID": 1,
+    "Rarity": "Common",
+    "Cooldown": "ROUND",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Armor",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Torn_spellbook",
+    "ID": 2,
+    "Rarity": "Common",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Mana_max",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Orb_of_dreams",
+    "ID": 3,
+    "Rarity": "Uncommon",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Health_max",
+        "Amount": -3
+      },
+      {
+        "Type": "Mana_recharge",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Broken_spellbook",
+    "ID": 4,
+    "Rarity": "Uncommon",
+    "Cooldown": "ROUND",
+    "Target": "Random",
+    "Stats": [
+      {
+        "Type": "Damage",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Smudged_mirror",
+    "ID": 5,
+    "Rarity": "Rare",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Exchange": [
+      {
+        "Type": "Armor",
+        "Amount": 2
+
+      },
+      {
+        "Type": "Heal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Fire_proof_vest",
+    "ID": 6,
+    "Rarity": "Uncommon",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Fire_ressistance",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Poison_affinity",
+    "ID": 7,
+    "Rarity": "Uncommon",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Poison_ressistance",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Bandages",
+    "ID": 8,
+    "Rarity": "Uncommon",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Bleed_ressistance",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Rogues_gloves",
+    "ID": 9,
+    "Rarity": "Rare",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Drawn_cards",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Healing_blessing",
+    "ID": 10,
+    "Rarity": "Uncommon",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Health_recharge",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Iron_shield",
+    "ID": 11,
+    "Rarity": "Rare",
+    "Cooldown": "Match",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Armor",
+        "Amount": 10
+      }
+    ]
+  },
+  {
+    "Name": "Thorn_crown",
+    "ID": 12,
+    "Rarity": "Epic",
+    "Cooldown": "ROUND",
+    "Target": "Random",
+    "Stats": [
+      {
+        "Type": "Poison",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Confused_rookie",
+    "ID": 13,
+    "Rarity": "Epic",
+    "Cooldown": "ROUND",
+    "Target": "Random",
+    "Roll": [
+        {
+          "Type":  "Damage",
+          "Chance": 5,
+          "Amount": 3
+        },
+        {
+          "Type": "Armor", 
+           "Chance": 5,
+           "Amount": 3
+        }
+    ]
+  },
+  {
+    "Name": "Leech",
+    "ID": 14,
+    "Rarity": "Epic",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Exchange": [
+      {
+        "Type": "Heal",
+        "Amount": 2
+
+      },
+      {
+        "Type": "Damage",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Fire_ember",
+    "ID": 15,
+    "Rarity": "Epic",
+    "Cooldown": "ROUND",
+    "Target": "Random",
+    "Stats": [
+      {
+        "Type": "Fire",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Dragon_egg",
+    "ID": 16,
+    "Rarity": "Epic",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Health_max",
+        "Amount": 5
+      },
+      {
+        "Type": "Mana_max",
+        "Amount": 5
+      }
+    ]
+  },
+  {
+    "Name": "Phoenix_wing",
+    "ID": 17,
+    "Rarity": "Epic",
+    "Cooldown": "ROUND",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Health_recharge",
+        "Amount": 4
+      },
+      {
+        "Type": "Mana_recharge",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Thunderstrike",
+    "ID": 18,
+    "Rarity": "Legendary",
+    "Cooldown": "SPELL",
+    "Target": "Random",
+    "Stats": [
+      {
+        "Type": "Damage",
+        "Amount": 6
+      }
+    ]
+  },
+  {
+    "Name": "Eternal_shard",
+    "ID": 19,
+    "Rarity": "Legendary",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Mana_max",
+        "Amount": 8
+      },
+      {
+        "Type": "Health_max",
+        "Amount": 8
+      }
+    ]
+  },
+  {
+    "Name": "Cursed_daggers",
+    "ID": 20,
+    "Rarity": "Legendary",
+    "Cooldown": "ROUND",
+    "Target": "Random",
+    "Stats": [
+      {
+        "Type": "Damage",
+        "Amount": 5
+      },
+      {
+        "Type": "Poison",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Soul_siphon",
+    "ID": 21,
+    "Rarity": "Legendary",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Health_recharge",
+        "Amount": 2
+      },
+      {
+        "Type": "Mana_recharge",
+        "Amount": 4
+      }
+    ]
+  },
+  {
+    "Name": "Abyssal_crystal",
+    "ID": 22,
+    "Rarity": "Epic",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Armor",
+        "Amount": 6
+      }
+    ]
+  },
+  {
+    "Name": "Infernal_wings",
+    "ID": 23,
+    "Rarity": "Epic",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Fire_ressistance",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Vampiric_blood",
+    "ID": 24,
+    "Rarity": "Epic",
+    "Cooldown": "ROUND",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Health_recharge",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Cloak_of_shadow",
+    "ID": 25,
+    "Rarity": "Legendary",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Armor",
+        "Amount": 12
+      }
+    ]
+  },
+  {
+    "Name": "Heart_of_the_wild",
+    "ID": 26,
+    "Rarity": "Legendary",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Health_max",
+        "Amount": 20
+      },
+      {
+        "Type": "Mana_max",
+        "Amount": 15
+      }
+    ]
+  },
+  {
+    "Name": "Celestial_sword",
+    "ID": 27,
+    "Rarity": "Legendary",
+    "Cooldown": "ROUND",
+    "Target": "Random",
+    "Stats": [
+      {
+        "Type": "Damage",
+        "Amount": 8
+      },
+      {
+        "Type": "Fire",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Gilded_shield",
+    "ID": 28,
+    "Rarity": "Rare",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Armor",
+        "Amount": 12
+      }
+    ]
+  },
+  {
+    "Name": "Witch's_essence",
+    "ID": 29,
+    "Rarity": "Epic",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Mana_recharge",
+        "Amount": 5
+      }
+    ]
+  },
+  {
+    "Name": "Rune_of_destiny",
+    "ID": 30,
+    "Rarity": "Legendary",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Drawn_cards",
+        "Amount": 2
+      },
+      {
+        "Type": "Damage",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Arcane_crystal",
+    "ID": 31,
+    "Rarity": "Legendary",
+    "Cooldown": "PASSIVE",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Mana_recharge",
+        "Amount": 6
+      },
+      {
+        "Type": "Health_max",
+        "Amount": 10
+      }
+    ]
+  },
+  {
+    "Name": "Blight_of_ages",
+    "ID": 32,
+    "Rarity": "Epic",
+    "Cooldown": "SPELL",
+    "Target": "Random",
+    "Stats": [
+      {
+        "Type": "Poison",
+        "Amount": 4
+      },
+      {
+        "Type": "Damage",
+        "Amount": 7
+      }
+    ]
+  },
+  {
+    "Name": "Dragon_blood",
+    "ID": 33,
+    "Rarity": "Epic",
+    "Cooldown": "ROUND",
+    "Target": "Player",
+    "Stats": [
+      {
+        "Type": "Health_recharge",
+        "Amount": 5
+      },
+      {
+        "Type": "Fire_ressistance",
+        "Amount": 4
+      }
+    ]
+  },
+  {
+    "Name": "Vortex_stone",
+    "ID": 34,
+    "Rarity": "Legendary",
+    "Cooldown": "SPELL",
+    "Target": "Random",
+    "Stats": [
+      {
+        "Type": "Damage",
+        "Amount": 5
+      }
+
+    ]
+  },
+      {
+        "Name": "Serpent's_fang",
+        "ID": 35,
+        "Rarity": "Rare",
+        "Cooldown": "ROUND",
+        "Target": "Enemy",
+        "Stats": [
+          {
+            "Type": "Poison",
+            "Amount": 2
+          },
+          {
+            "Type": "Damage",
+            "Amount": 4
+          }
+        ]
+      },
+      {
+        "Name": "Mysterious_talisman",
+        "ID": 36,
+        "Rarity": "Epic",
+        "Cooldown": "PASSIVE",
+        "Target": "Player",
+        "Stats": [
+          {
+            "Type": "Armor",
+            "Amount": 5
+          },
+          {
+            "Type": "Health_max",
+            "Amount": 5
+          }
+        ]
+      },
+      {
+        "Name": "Phoenix_scarf",
+        "ID": 37,
+        "Rarity": "Legendary",
+        "Cooldown": "ROUND",
+        "Target": "Player",
+        "Stats": [
+          {
+            "Type": "Health_recharge",
+            "Amount": 8
+          },
+          {
+            "Type": "Mana_recharge",
+            "Amount": 6
+          }
+        ]
+      },
+      {
+        "Name": "Crown_of_sorcery",
+        "ID": 38,
+        "Rarity": "Legendary",
+        "Cooldown": "PASSIVE",
+        "Target": "Player",
+        "Stats": [
+          {
+            "Type": "Drawn_cards",
+            "Amount": 2
+          },
+          {
+            "Type": "Mana_max",
+            "Amount": 10
+          }
+        ]
+      },
+      {
+        "Name": "Shield_of_eternity",
+        "ID": 39,
+        "Rarity": "Legendary",
+        "Cooldown": "ROUND",
+        "Target": "Player",
+        "Stats": [
+          {
+            "Type": "Armor",
+            "Amount": 15
+          }
+        ]
+      },
+      {
+        "Name": "Elder_amulet",
+        "ID": 40,
+        "Rarity": "Legendary",
+        "Cooldown": "PASSIVE",
+        "Target": "Player",
+        "Stats": [
+          {
+            "Type": "Health_max",
+            "Amount": 12
+          },
+          {
+            "Type": "Mana_max",
+            "Amount": 12
+          }
+        ]
+      },
+
+        {
+          "Name": "Elder_wand_of_wisdom",
+          "ID": 41,
+          "Rarity": "Legendary",
+          "Cooldown": "PASSIVE",
+          "Target": "Player",
+          "Stats": [
+            {
+              "Type": "Mana_recharge",
+              "Amount": 1
+            },
+            {
+              "Type": "Health_recharge",
+              "Amount": 4
+            }
+          ]
+        },
+        {
+          "Name": "Tome_of_Arcane_Mastery",
+          "ID": 42,
+          "Rarity": "Epic",
+          "Cooldown": "PASSIVE",
+          "Target": "Player",
+          "Stats": [
+            {
+              "Type": "Mana_recharge",
+              "Amount": 3
+            }
+          ]
+        },
+        {
+          "Name": "Diamond_encrusted_helmet",
+          "ID": 43,
+          "Rarity": "Rare",
+          "Cooldown": "PASSIVE",
+          "Target": "Player",
+          "Stats": [
+            {
+              "Type": "Armor",
+              "Amount": 5
+            }
+          ]
+        },
+        {
+          "Name": "Flames_of_the_Inferno",
+          "ID": 44,
+          "Rarity": "Legendary",
+          "Cooldown": "SPELL",
+          "Target": "Random",
+          "Stats": [
+            {
+              "Type": "Fire",
+              "Amount": 1
+            },
+            {
+              "Type": "Damage",
+              "Amount": 2
+            }
+          ]
+        },
+        {
+          "Name": "Essence_of_Life",
+          "ID": 45,
+          "Rarity": "Epic",
+          "Cooldown": "PASSIVE",
+          "Target": "Player",
+          "Stats": [
+            {
+              "Type": "Health_max",
+              "Amount": 15
+            }
+          ]
+        },
+        {
+          "Name": "Guardian_Statue",
+          "ID": 46,
+          "Rarity": "Rare",
+          "Cooldown": "ROUND",
+          "Target": "Player",
+          "Stats": [
+            {
+              "Type": "Armor",
+              "Amount": 3
+            }
+          ]
+        }
+      ]

@@ -1,0 +1,2112 @@
+[
+  {
+    "Name": "Shield_bearer",
+    "ID": 0,
+    "Health": 6,
+    "Rarity": "Common",
+    "Reward": "GOLD",
+    "Survive": {
+      "Type": "ARMOR",
+      "Amount": 1,
+      "Range_left": [ 1, 2 ],
+      "Range_right": [ 1, 2 ]
+    },
+    "Actions": [
+      {
+        "Type": "ARMOR",
+        "Amount": 1,
+        "Range_left": [ 0, 1 ],
+        "Range_right": [ 0, 0 ]
+      },
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "ARMOR",
+        "Amount": 1,
+        "Range_left": [ 1 ],
+        "Range_right": [ 1 ]
+      },
+      {
+        "Type": "DAMAGE",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Healer_apprentnice",
+    "ID": 1,
+    "Health": 3,
+    "Armor": 2,
+    "Rarity": "Common",
+    "Survive": {
+      "Type": "HEAL",
+      "Amount": 1,
+      "Range_left": [ 0, 1, 2, 3 ],
+      "Range_right": [ 0, 1, 2, 3 ]
+    },
+    "Actions": [
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "HEAL",
+        "Amount": 1,
+        "Range_left": [ 1 ],
+        "Range_right": [ 1 ]
+      },
+      {
+        "Type": "ARMOR",
+        "Amount": 1,
+        "Range_left": [ 1 ],
+        "Range_right": [ 1 ]
+      },
+      {
+        "Type": "EMPTY"
+      }
+    ]
+  },
+  {
+    "Name": "Broken_sword_bearer",
+    "Right": true,
+    "ID": 2,
+    "Health": 5,
+    "Rarity": "Common",
+    "Reward": "GOLD",
+    "Survive": {
+      "Type": "DAMAGE",
+      "Amount": 1
+    },
+    "Actions": [
+      {
+        "Type": "DAMAGE",
+        "Amount": 1
+      },
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "DAMAGE",
+        "Amount": 1
+      },
+      {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Defender_Elite",
+    "ID": 3,
+    "Health": 8,
+    "Armor": 3,
+    "Rarity": "Uncommon_ELITE",
+    "Reward": "ITEM",
+    "Survive": {
+      "Type": "ARMOR",
+      "Amount": 2,
+      "Range_left": [ 0, 1, 2 ],
+      "Range_right": [ 0, 1, 2 ]
+    },
+    "Actions": [
+      {
+        "Type": "ARMOR",
+        "Amount": 1,
+        "Range_left": [ 0, 1, 2 ],
+        "Range_right": [ 0, 0, 2 ]
+      },
+      {
+        "Type": "PARRY",
+        "Amount": 3
+      },
+      {
+        "Type": "ARMOR",
+        "Amount": 1,
+        "Range_left": [ 1, 3 ],
+        "Range_right": [ 1, 3 ]
+      },
+      {
+        "Type": "DAMAGE",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Assasin_rookie",
+    "ID": 4,
+    "Health": 5,
+    "Armor": 2,
+    "Rarity": "Rare",
+    "Reward": "GOLD",
+    "Survive": {
+      "Type": "DAMAGE_IGNORE_ARMOR",
+      "Amount": 2
+    },
+    "Actions": [
+      {
+        "Type": "SNEAK"
+      },
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "BOOST",
+        "Amount": 3,
+        "Range_left": [ 0 ],
+        "Range_right": [ 0 ]
+      },
+      {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 4
+      }
+    ]
+  },
+  {
+    "Name": "Undead_bard",
+    "ID": 5,
+    "Health": 4,
+    "Armor": 6,
+    "Rarity": "Uncommon",
+    "Reward": "GOLD",
+    "Survive": {
+      "Type": "BOOST",
+      "Amount": 2,
+      "Range_left": [ 1 ],
+      "Range_right": [ 1 ]
+    },
+    "Actions": [
+      {
+        "Type": "HEAL",
+        "Amount": 3,
+        "Range_left": [ 1 ],
+        "Range_right": [ 1 ]
+      },
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "BOOST",
+        "Amount": 3,
+        "Range_left": [ 1 ],
+        "Range_right": [ 1 ]
+      },
+      {
+        "Type": "SNEAK"
+      }
+    ]
+  },
+  {
+    "Name": "Undead_pleb",
+    "ID": 6,
+    "Health": 10,
+    "Armor": 2,
+    "Rarity": "Uncommon",
+    "Reward": "GOLD",
+    "Survive": {
+      "Type": "BLEED",
+      "Amount": 2
+    },
+    "Actions": [
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "LIFE_STEAL",
+        "Amount": 3
+      },
+      {
+        "Type": "POISON",
+        "Amount": 2
+      },
+      {
+        "Type": "EMPTY"
+      }
+    ]
+  },
+  {
+    "Name": "Exploding_bat",
+    "ID": 7,
+    "Health": 4,
+    "Armor": 1,
+    "Rarity": "Epic",
+    "Reward": "GOLD",
+    "Actions": [
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "SNEAK"
+      },
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "DAMAGE",
+        "Sacrifice": true,
+        "Amount": 10
+      }
+    ]
+  },
+  {
+    "Name": "Cultist",
+    "ID": 8,
+    "Health": 7,
+    "Armor": 4,
+    "Rarity": "Epic",
+    "Reward": "GOLD",
+    "Actions": [
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "DAMAGE",
+        "Amount": 5
+      },
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "ARMOR",
+        "Sacrifice": true,
+        "Amount": 7,
+        "Range_left": [ 1, 2, 3, 4 ],
+        "Range_right": [ 0, 0, 0, 0 ]
+      }
+    ]
+  },
+  {
+    "Name": "Torch_thrower",
+    "ID": 9,
+    "Health": 4,
+    "Armor": 3,
+    "Rarity": "Common",
+    "Reward": "GOLD",
+    "Survive": {
+      "Type": "FIRE",
+      "Amount": 3
+    },
+    "Actions": [
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "SNEAK"
+      },
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "FIRE",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "The_forgotten_one",
+    "ID": 10,
+    "Health": 18,
+    "Armor": 6,
+    "Rarity": "Legendary",
+    "Reward": "CARD",
+    "Survive": {
+      "Type": "HEAL",
+      "Amount": 5,
+      "Range_left": [ 0, 1, 2, 3, 4 ],
+      "Range_right": [ 0, 1, 2, 3, 4 ]
+    },
+    "Actions": [
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "ARMOR",
+        "Amount": 5,
+        "Range_left": [ 0, 1, 2, 3, 4 ],
+        "Range_right": [ 0, 1, 2, 3, 4 ]
+      },
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "LIFE_STEAL",
+        "Amount": 5
+      }
+    ]
+  },
+  {
+    "Name": "Iron_Protector",
+    "ID": 11,
+    "Health": 8,
+    "Armor": 4,
+    "Rarity": "Common",
+    "Reward": "GOLD",
+    "Survive": {
+      "Type": "ARMOR",
+      "Amount": 2,
+      "Range_left": [ 0 ],
+      "Range_right": [ 0 ]
+    },
+    "Actions": [
+      {
+        "Type": "ARMOR",
+        "Amount": 2,
+        "Range_left": [ 0, 0 ],
+        "Range_right": [ 0, 1 ]
+      },
+      {
+        "Type": "EMPTY"
+      },
+      {
+        "Type": "DAMAGE",
+        "Amount": 1
+      },
+      {
+        "Type": "EMPTY"
+      }
+    ]
+  },
+  {
+    "Name": "Flame_Mage",
+    "ID": 12,
+    "Health": 6,
+    "Armor": 2,
+    "Rarity": "Uncommon",
+    "Reward": "ITEM",
+    "Survive": {
+      "Type": "FIRE",
+      "Amount": 3
+    },
+    "Actions": [
+      {
+        "Type": "FIRE",
+        "Amount": 3
+      },
+      {
+        "Type": "ARMOR",
+        "Amount": 1,
+        "Range_left": [ 0 ],
+        "Range_right": [ 0 ]
+      },
+      {
+        "Type": "DAMAGE",
+        "Amount": 4
+      },
+      {
+        "Type": "EMPTY"
+      }
+    ]
+  },
+  {
+    "Name": "Shadow_Spy",
+    "ID": 13,
+    "Health": 7,
+    "Armor": 2,
+    "Rarity": "Rare",
+    "Reward": "GOLD",
+    "Survive": {
+      "Type": "DAMAGE_IGNORE_ARMOR",
+      "Amount": 2
+    },
+    "Actions": [
+      {
+        "Type": "SNEAK"
+      },
+      {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 5
+      },
+      {
+        "Type": "DAMAGE",
+        "Amount": 3
+      },
+      {
+        "Type": "EMPTY"
+      }
+    ]
+  },
+  {
+    "Name": "Ancient_Guardian",
+    "ID": 14,
+    "Health": 12,
+    "Armor": 6,
+    "Rarity": "Epic",
+    "Reward": "CARD",
+    "Survive": {
+      "Type": "HEAL",
+      "Amount": 4,
+      "Range_left": [ 0, 1, 2 ],
+      "Range_right": [ 0, 1, 2 ]
+    },
+    "Actions": [
+      {
+        "Type": "HEAL",
+        "Amount": 6,
+        "Range_left": [ 1 ],
+        "Range_right": [ 1 ]
+      },
+      {
+        "Type": "ARMOR",
+        "Amount": 4,
+        "Range_left": [ 0, 1, 2 ],
+        "Range_right": [ 0, 1, 2 ]
+      },
+      {
+        "Type": "DAMAGE",
+        "Amount": 4
+      },
+      {
+        "Type": "EMPTY"
+      }
+    ]
+  },
+  {
+    "Name": "Storm_Warrior",
+    "ID": 15,
+    "Health": 10,
+    "Armor": 5,
+    "Rarity": "Legendary",
+    "Reward": "CARD",
+    "Survive": {
+      "Type": "DAMAGE_IGNORE_ARMOR",
+      "Sacrifice": true,
+      "Amount": 15
+    },
+    "Actions": [
+      {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 8
+      },
+      {
+        "Type": "DAMAGE",
+        "Amount": 6
+      },
+      {
+        "Type": "ARMOR",
+        "Amount": 5,
+        "Range_left": [ 0, 1, 2 ],
+        "Range_right": [ 0, 0, 0 ]
+      },
+      {
+        "Type": "LIFE_STEAL",
+        "Amount": 4
+      }
+    ]
+  },
+  {
+    "Name": "Venomous_Queen",
+    "ID": 16,
+    "Health": 8,
+    "Armor": 3,
+    "Rarity": "Epic",
+    "Reward": "GOLD",
+    "Survive": {
+      "Type": "POISON",
+      "Amount": 4
+    },
+    "Actions": [
+      {
+        "Type": "POISON",
+        "Amount": 7
+      },
+      {
+        "Type": "DAMAGE",
+        "Amount": 5
+      },
+      {
+        "Type": "SNEAK"
+      },
+      {
+        "Type": "EMPTY"
+      }
+    ]
+  },
+  {
+    "Name": "Crystal_Berserker",
+    "ID": 17,
+    "Health": 12,
+    "Armor": 4,
+    "Rarity": "Rare",
+    "Reward": "ITEM",
+    "Survive": {
+      "Type": "ARMOR",
+      "Amount": 3,
+      "Range_left": [ 0, 0 ],
+      "Range_right": [ 0, 1 ]
+    },
+    "Actions": [
+      {
+        "Type": "DAMAGE",
+        "Amount": 6
+      },
+      {
+        "Type": "ARMOR",
+        "Amount": 3,
+        "Range_left": [ 0 ],
+        "Range_right": [ 0 ]
+      },
+      {
+        "Type": "DAMAGE",
+        "Amount": 5
+      },
+      {
+        "Type": "EMPTY"
+      }
+    ]
+  },
+  {
+      "Name": "Knight_watcher",
+      "ID": 18,
+      "Health": 6,
+      "Armor": 2,
+      "Rarity": "Common",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "ARMOR",
+        "Amount": 1,
+        "Range_left": [ 1, 2 ],
+        "Range_right": [ 1, 2 ]
+      },
+      "Actions": [
+        {
+          "Type": "ARMOR",
+          "Amount": 1,
+          "Range_left": [ 0, 1 ],
+          "Range_right": [ 0, 1 ]
+        },
+        {
+          "Type": "EMPTY"
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 1
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Goblin_scout",
+      "ID": 19,
+      "Health": 4,
+      "Armor": 1,
+      "Rarity": "Common",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "DAMAGE",
+        "Amount": 1
+      },
+      "Actions": [
+        {
+          "Type": "SNEAK"
+        },
+        {
+          "Type": "EMPTY"
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 2
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Fire_troll",
+      "ID": 20,
+      "Health": 7,
+      "Armor": 1,
+      "Rarity": "Common",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "FIRE",
+        "Amount": 2
+      },
+      "Actions": [
+        {
+          "Type": "FIRE",
+          "Amount": 1
+        },
+        {
+          "Type": "EMPTY"
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 1,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 3
+        }
+      ]
+    },
+    {
+      "Name": "Mud_giant",
+      "ID": 21,
+      "Health": 8,
+      "Armor": 3,
+      "Right":  true,
+      "Rarity": "Common",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "ARMOR",
+        "Amount": 1,
+        "Range_left": [ 1, 2 ],
+        "Range_right": [ 0, 0 ]
+
+      },
+      "Actions": [
+        {
+          "Type": "ARMOR",
+          "Amount": 2,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "EMPTY"
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 2
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Swamp_frog",
+      "ID": 22,
+      "Health": 4,
+      "Armor": 0,
+      "Rarity": "Common",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "BLEED",
+        "Amount": 1
+      },
+      "Actions": [
+        {
+          "Type": "EMPTY"
+        },
+        {
+          "Type": "POISON",
+          "Amount": 1
+        },
+        {
+          "Type": "SNEAK"
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 1
+        }
+      ]
+    },
+    {
+      "Name": "Forest_bandit",
+      "ID": 23,
+      "Health": 5,
+      "Armor": 1,
+      "Rarity": "Common",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 1
+      },
+      "Actions": [
+        {
+          "Type": "SNEAK"
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 2
+        },
+        {
+          "Type": "EMPTY"
+        },
+        {
+          "Type": "DAMAGE_IGNORE_ARMOR",
+          "Amount": 2
+        }
+      ]
+    },
+    {
+      "Name": "Plague_spreader",
+      "ID": 24,
+      "Health": 5,
+      "Armor": 1,
+      "Rarity": "Common",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "POISON",
+        "Amount": 1
+      },
+      "Actions": [
+        {
+          "Type": "EMPTY"
+        },
+        {
+          "Type": "POISON",
+          "Amount": 2
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 1
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Stone_guard",
+      "ID": 25,
+      "Health": 6,
+      "Armor": 2,
+      "Rarity": "Common",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "ARMOR",
+        "Amount": 1,
+        "Range_left": [ 1 ],
+        "Range_right":  [1]
+      },
+      "Actions": [
+        {
+          "Type": "ARMOR",
+          "Amount": 1,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "EMPTY"
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 1
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Rogue_thief",
+      "ID": 26,
+      "Health": 4,
+      "Armor": 0,
+      "Rarity": "Common",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 1
+      },
+      "Actions": [
+        {
+          "Type": "SNEAK"
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 2
+        },
+        {
+          "Type": "EMPTY"
+        },
+        {
+          "Type": "DAMAGE_IGNORE_ARMOR",
+          "Amount": 3
+        }
+      ]
+    },
+    {
+      "Name": "Iron_miner",
+      "ID": 27,
+      "Health": 7,
+      "Armor": 2,
+      "Rarity": "Common",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "ARMOR",
+        "Amount": 1,
+        "Range_left": [ 1 ],
+        "Range_right": [ 1 ]
+
+      },
+      "Actions": [
+        {
+          "Type": "ARMOR",
+          "Amount": 1,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "EMPTY"
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 2
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Cave_troll",
+      "ID": 28,
+      "Health": 9,
+      "Armor": 3,
+      "Right": true,
+      "Rarity": "Uncommon",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "ARMOR",
+        "Amount": 2,
+        "Range_left": [ 0, 0 ],
+        "Range_right": [ 1, 2 ]
+
+      },
+      "Actions": [
+        {
+          "Type": "ARMOR",
+          "Amount": 2,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "EMPTY"
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 4
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Storm_pirate",
+      "ID": 29,
+      "Health": 7,
+      "Armor": 2,
+      "Rarity": "Uncommon",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 2
+      },
+      "Actions": [
+        {
+          "Type": "SNEAK"
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 3
+        },
+        {
+          "Type": "DAMAGE_IGNORE_ARMOR",
+          "Amount": 4
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Stone_shaman",
+      "ID": 30,
+      "Health": 6,
+      "Armor": 4,
+      "Rarity": "Uncommon",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "HEAL",
+        "Amount": 2,
+        "Range_left": [ 1, 2 ],
+        "Range_right": [ 1, 2 ]
+      },
+      "Actions": [
+        {
+          "Type": "HEAL",
+          "Amount": 3,
+          "Range_left": [0,  1 ],
+          "Range_right": [0, 1 ]
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 2,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 1
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Forest_guardian",
+      "ID": 31,
+      "Health": 8,
+      "Armor": 3,
+      "Rarity": "Uncommon",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "ARMOR",
+        "Amount": 2,
+        "Range_left": [ 0, 0],
+        "Range_right": [ 1, 2 ]
+      },
+      "Actions": [
+        {
+          "Type": "ARMOR",
+          "Amount": 2,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "SNEAK"
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 3
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Lightning_witch",
+      "ID": 32,
+      "Health": 6,
+      "Armor": 2,
+      "Rarity": "Uncommon",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "BOOST",
+        "Amount": 2,
+        "Range_left": [ 1 , 0],
+        "Range_right": [ 1, 2 ]
+      },
+      "Actions": [
+        {
+          "Type": "BOOST",
+          "Amount": 2,
+          "Range_left": [ 0 , 1],
+          "Range_right": [ 0, 1]
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 4
+        },
+        {
+          "Type": "SNEAK"
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Iron_warrior",
+      "ID": 33,
+      "Health": 10,
+      "Armor": 4,
+      "Rarity": "Uncommon",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "ARMOR",
+        "Amount": 3,
+        "Range_left": [ 1 ],
+        "Range_right": [ 1 ]
+      },
+      "Actions": [
+        {
+          "Type": "ARMOR",
+          "Amount": 3,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "EMPTY"
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 5
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Blood_fury",
+      "ID": 34,
+      "Health": 7,
+      "Armor": 2,
+      "Rarity": "Uncommon",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "LIFE_STEAL",
+        "Amount": 3
+      },
+      "Actions": [
+        {
+          "Type": "DAMAGE",
+          "Amount": 4
+        },
+        {
+          "Type": "LIFE_STEAL",
+          "Amount": 3
+        },
+        {
+          "Type": "EMPTY"
+        },
+        {
+          "Type": "SNEAK"
+        }
+      ]
+    },
+    {
+      "Name": "Magma_beast",
+      "ID": 35,
+      "Health": 9,
+      "Armor": 3,
+      "Rarity": "Uncommon",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "FIRE",
+        "Amount": 3
+      },
+      "Actions": [
+        {
+          "Type": "FIRE",
+          "Amount": 2
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 2,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 3
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Night_hunter",
+      "ID": 36,
+      "Health": 6,
+      "Armor": 3,
+      "Rarity": "Uncommon",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 2
+      },
+      "Actions": [
+        {
+          "Type": "SNEAK"
+        },
+        {
+          "Type": "DAMAGE_IGNORE_ARMOR",
+          "Amount": 4
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 2,
+          "Range_left": [ 0],
+          "Range_right": [ 0]
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 2
+        }
+      ]
+    },
+    {
+      "Name": "Vengeful_sorcerer",
+      "ID": 37,
+      "Health": 6,
+      "Armor": 2,
+      "Rarity": "Uncommon",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "BOOST",
+        "Amount": 1,
+        "Range_left": [ 1, 2 ],
+        "Range_right": [ 1, 2 ]
+      },
+      "Actions": [
+        {
+          "Type": "BOOST",
+          "Amount": 3,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 4
+        },
+        {
+          "Type": "HEAL",
+          "Amount": 2,
+          "Range_left": [0],
+          "Range_right": [0 ]
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Arcane_enchanter",
+      "ID": 38,
+      "Health": 8,
+      "Armor": 4,
+      "Right":  true,
+      "Rarity": "Rare",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "HEAL",
+        "Amount": 3,
+        "Range_left": [ 1, 2 ],
+        "Range_right": [ 0, 0]
+      },
+      "Actions": [
+        {
+          "Type": "HEAL",
+          "Amount": 4,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "BOOST",
+          "Amount": 2,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 5
+        },
+        {
+          "Type": "SNEAK"
+        }
+      ]
+    },
+    {
+      "Name": "Frost_warden",
+      "ID": 39,
+      "Health": 9,
+      "Armor": 5,
+      "Rarity": "Rare",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "FIRE",
+        "Amount": 3
+      },
+      "Actions": [
+        {
+          "Type": "FIRE",
+          "Amount": 3
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 3,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 4
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Wind_sorcerer",
+      "ID": 40,
+      "Health": 7,
+      "Armor": 3,
+      "Rarity": "Rare",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "BOOST",
+        "Amount": 3,
+        "Range_left": [ 1 ],
+        "Range_right": [ 1]
+      },
+      "Actions": [
+        {
+          "Type": "BOOST",
+          "Amount": 4,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0]
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 5
+        },
+        {
+          "Type": "SNEAK"
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Vampire_lord",
+      "ID": 41,
+      "Health": 10,
+      "Armor": 4,
+      "Rarity": "Rare",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "LIFE_STEAL",
+        "Amount": 4
+      },
+      "Actions": [
+        {
+          "Type": "LIFE_STEAL",
+          "Amount": 5
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 6
+        },
+        {
+          "Type": "SNEAK"
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Shadow_mage",
+      "ID": 42,
+      "Health": 8,
+      "Armor": 2,
+      "Rarity": "Rare",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 3
+      },
+      "Actions": [
+        {
+          "Type": "SNEAK"
+        },
+        {
+          "Type": "DAMAGE_IGNORE_ARMOR",
+          "Amount": 6
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 4
+        },
+        {
+          "Type": "BOOST",
+          "Amount": 2,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        }
+      ]
+    },
+    {
+      "Name": "Cursed_knight",
+      "ID": 43,
+      "Health": 10,
+      "Armor": 6,
+      "Rarity": "Rare",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "BLEED",
+        "Sacrifice":  true,
+        "Amount": 3
+      },
+      "Actions": [
+        {
+          "Type": "EMPTY"
+        },
+        {
+          "Type": "BLEED",
+          "Amount": 4
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 4,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 7
+        }
+
+      ]
+    },
+    {
+      "Name": "Storm_drake",
+      "ID": 44,
+      "Health": 12,
+      "Armor": 4,
+      "Rarity": "Rare",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 5
+      },
+      "Actions": [
+        {
+          "Type": "DAMAGE_IGNORE_ARMOR",
+          "Amount": 8
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 3,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 6
+        },
+        {
+          "Type": "SNEAK"
+        }
+      ]
+    },
+    {
+      "Name": "Inferno_warrior",
+      "ID": 45,
+      "Health": 11,
+      "Armor": 5,
+      "Rarity": "Rare",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "FIRE",
+        "Amount": 4
+      },
+      "Actions": [
+        {
+          "Type": "FIRE",
+          "Amount": 5
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 4,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 7
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Mystic_archer",
+      "ID": 46,
+      "Health": 8,
+      "Armor": 3,
+      "Rarity": "Rare",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 2
+      },
+      "Actions": [
+        {
+          "Type": "DAMAGE",
+          "Amount": 5
+        },
+        {
+          "Type": "DAMAGE_IGNORE_ARMOR",
+          "Amount": 6
+        },
+        {
+          "Type": "SNEAK"
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Hellfire_golem",
+      "ID": 47,
+      "Health": 14,
+      "Armor": 5,
+      "Rarity": "Rare",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "FIRE",
+        "Amount": 5
+      },
+      "Actions": [
+        {
+          "Type": "FIRE",
+          "Amount": 6
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 4,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 7
+        },
+        {
+          "Type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "Name": "Dragon_rider",
+      "ID": 48,
+      "Health": 16,
+      "Armor": 8,
+      "Rarity": "Epic",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "HEAL",
+        "Amount": 6,
+        "Range_left": [ 1, 2, 3 ],
+        "Range_right": [ 1, 2, 3 ]
+      },
+      "Actions": [
+        {
+          "Type": "ARMOR",
+          "Amount": 4,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 8
+        },
+        {
+          "Type": "HEAL",
+          "Amount": 4,
+          "Range_left": [ 1 ],
+          "Range_right": [ 1 ]
+        },
+        {
+          "Type": "FIRE",
+          "Amount": 5
+        }
+      ]
+    },
+    {
+      "Name": "Necromancer_queen",
+      "ID": 49,
+      "Health": 14,
+      "Armor": 6,
+      "Rarity": "Epic",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "BLEED",
+        "Amount": 4
+      },
+      "Actions": [
+        {
+          "Type": "HEAL",
+          "Amount": 6,
+          "Range_left": [ 1 ],
+          "Range_right": [ 1 ]
+        },
+        {
+          "Type": "LIFE_STEAL",
+          "Amount": 5
+        },
+        {
+          "Type": "BLEED",
+          "Amount": 6
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 6
+        }
+      ]
+    },
+    {
+      "Name": "Titan_warrior",
+      "ID": 50,
+      "Health": 20,
+      "Armor": 10,
+      "Rarity": "Epic",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 6
+      },
+      "Actions": [
+        {
+          "Type": "DAMAGE_IGNORE_ARMOR",
+          "Amount": 10
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 5,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 8
+        },
+        {
+          "Type": "LIFE_STEAL",
+          "Amount": 4
+        }
+      ]
+    },
+    {
+      "Name": "Celestial_archer",
+      "ID": 51,
+      "Health": 12,
+      "Armor": 6,
+      "Rarity": "Epic",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 4
+      },
+      "Actions": [
+        {
+          "Type": "DAMAGE",
+          "Amount": 7
+        },
+        {
+          "Type": "DAMAGE_IGNORE_ARMOR",
+          "Amount": 5
+        },
+        {
+          "Type": "SNEAK"
+        },
+        {
+          "Type": "BOOST",
+          "Amount": 3,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        }
+      ]
+    },
+    {
+      "Name": "Infernal_berserker",
+      "ID": 52,
+      "Health": 18,
+      "Armor": 7,
+      "Rarity": "Epic",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "FIRE",
+        "Amount": 6
+      },
+      "Actions": [
+        {
+          "Type": "FIRE",
+          "Amount": 7
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 4,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 10
+        },
+        {
+          "Type": "LIFE_STEAL",
+          "Amount": 5
+        }
+      ]
+    },
+    {
+      "Name": "Storm_dragon",
+      "ID": 53,
+      "Health": 22,
+      "Armor": 8,
+      "Rarity": "Epic",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "HEAL",
+        "Amount": 8,
+        "Range_left": [ 0, 1, 2, 3, 4 ],
+        "Range_right": [ 0, 1, 2, 3, 4 ]
+      },
+      "Actions": [
+        {
+          "Type": "DAMAGE",
+          "Amount": 12
+        },
+        {
+          "Type": "HEAL",
+          "Amount": 6,
+          "Range_left": [ 1 ],
+          "Range_right": [ 1 ]
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 6,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "FIRE",
+          "Amount": 8
+        }
+      ]
+    },
+    {
+      "Name": "Venom_sorceress",
+      "ID": 54,
+      "Health": 14,
+      "Armor": 5,
+      "Rarity": "Epic",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "POISON",
+        "Amount": 6
+      },
+      "Actions": [
+        {
+          "Type": "POISON",
+          "Amount": 8
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 9
+        },
+        {
+          "Type": "LIFE_STEAL",
+          "Amount": 5
+        },
+        {
+          "Type": "SNEAK"
+        }
+      ]
+    },
+    {
+      "Name": "Shadow_knight",
+      "ID": 55,
+      "Health": 16,
+      "Armor": 6,
+      "Rarity": "Epic",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 6
+      },
+      "Actions": [
+        {
+          "Type": "DAMAGE_IGNORE_ARMOR",
+          "Amount": 8
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 4,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 10
+        },
+        {
+          "Type": "SNEAK"
+        }
+      ]
+    },
+    {
+      "Name": "Phoenix_guardian",
+      "ID": 56,
+      "Health": 20,
+      "Armor": 7,
+      "Rarity": "Epic",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "HEAL",
+        "Amount": 5,
+        "Range_left": [ 1, 2 ],
+        "Range_right": [ 0, 0 ]
+
+      },
+      "Actions": [
+        {
+          "Type": "HEAL",
+          "Amount": 7,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "FIRE",
+          "Amount": 6
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 12
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 5,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        }
+      ]
+    },
+    {
+      "Name": "Elder_wizard",
+      "ID": 57,
+      "Health": 24,
+      "Armor": 10,
+      "Rarity": "Legendary",
+      "Reward": "CARD",
+      "Survive": {
+        "Type": "HEAL",
+        "Amount": 10,
+        "Range_left": [ 0, 1, 2, 3, 4 ],
+        "Range_right": [ 0, 1, 2, 3, 4 ]
+      },
+      "Actions": [
+        {
+          "Type": "HEAL",
+          "Amount": 8,
+          "Range_left": [ 1 ],
+          "Range_right": [ 1 ]
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 12
+        },
+        {
+          "Type": "BOOST",
+          "Amount": 5,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "SNEAK"
+        }
+      ]
+    },
+    {
+      "Name": "Immortal_guardian",
+      "ID": 58,
+      "Health": 30,
+      "Armor": 12,
+      "Rarity": "Legendary",
+      "Reward": "ITEM",
+      "Survive": {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 10
+      },
+      "Actions": [
+        {
+          "Type": "DAMAGE_IGNORE_ARMOR",
+          "Amount": 15
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 7,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        },
+        {
+          "Type": "LIFE_STEAL",
+          "Amount": 8
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 10
+        }
+      ]
+    },
+    {
+      "Name": "Phoenix_king",
+      "ID": 59,
+      "Health": 28,
+      "Armor": 15,
+      "Rarity": "Legendary",
+      "Right":  true,
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "HEAL",
+        "Amount": 12,
+        "Range_left": [ 1, 2, 3, 4 ],
+        "Range_right": [ 1, 2, 3, 4 ]
+      },
+      "Actions": [
+        {
+          "Type": "HEAL",
+          "Amount": 10,
+          "Range_left": [ 1 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "FIRE",
+          "Amount": 12
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 14
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 8,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+        }
+      ]
+    },
+    {
+      "Name": "Celestial_beast",
+      "ID": 60,
+      "Health": 35,
+      "Armor": 18,
+      "Rarity": "Legendary",
+      "Reward": "ITEM",
+      "Survive": {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 12
+      },
+      "Actions": [
+        {
+          "Type": "DAMAGE_IGNORE_ARMOR",
+          "Amount": 18
+        },
+        {
+          "Type": "LIFE_STEAL",
+          "Amount": 10
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 16
+        },
+        {
+          "Type": "SNEAK"
+        }
+      ]
+    },
+    {
+      "Name": "Void_titan",
+      "ID": 61,
+      "Health": 40,
+      "Armor": 20,
+      "Rarity": "Legendary",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "HEAL",
+        "Amount": 15,
+        "Range_left": [ 0, 1, 2, 3, 4 ],
+        "Range_right": [ 0, 1, 2, 3, 4 ]
+      },
+      "Actions": [
+        {
+          "Type": "HEAL",
+          "Amount": 10,
+          "Range_left": [ 1 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 12,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 20
+        },
+        {
+          "Type": "LIFE_STEAL",
+          "Amount": 15
+        }
+      ]
+    },
+    {
+      "Name": "Dragon_queen",
+      "ID": 62,
+      "Health": 36,
+      "Armor": 16,
+      "Rarity": "Legendary",
+      "Reward": "ITEM",
+      "Survive": {
+        "Type": "FIRE",
+        "Amount": 10
+      },
+      "Actions": [
+        {
+          "Type": "FIRE",
+          "Amount": 15
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 18
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 10,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "SNEAK"
+        }
+      ]
+    },
+    {
+      "Name": "Ancient_sorcerer",
+      "ID": 63,
+      "Health": 26,
+      "Armor": 13,
+      "Rarity": "Legendary",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "BOOST",
+        "Amount": 8,
+        "Range_left": [ 0, 1 ],
+        "Range_right": [ 0, 1]
+
+      },
+      "Actions": [
+        {
+          "Type": "BOOST",
+          "Amount": 6,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 12
+        },
+        {
+          "Type": "HEAL",
+          "Amount": 8,
+          "Range_left": [ 1 ],
+          "Range_right": [ 1 ]
+
+        },
+        {
+          "Type": "SNEAK"
+        }
+      ]
+    },
+    {
+      "Name": "Titanic_warrior",
+      "ID": 64,
+      "Health": 45,
+      "Armor": 25,
+      "Rarity": "Legendary",
+      "Reward": "ITEM",
+      "Survive": {
+        "Type": "DAMAGE_IGNORE_ARMOR",
+        "Amount": 15
+      },
+      "Actions": [
+        {
+          "Type": "DAMAGE_IGNORE_ARMOR",
+          "Amount": 20
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 18,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 25
+        },
+        {
+          "Type": "LIFE_STEAL",
+          "Amount": 10
+        }
+      ]
+    },
+    {
+      "Name": "Abyssal_lord",
+      "ID": 65,
+      "Health": 38,
+      "Armor": 20,
+      "Right":  true,
+      "Rarity": "Legendary",
+      "Reward": "GOLD",
+      "Survive": {
+        "Type": "HEAL",
+        "Amount": 10,
+        "Range_left": [ 0, 1, 2 ],
+        "Range_right": [ 0, 0, 0 ]
+
+      },
+      "Actions": [
+        {
+          "Type": "HEAL",
+          "Amount": 10,
+          "Range_left": [ 1 ],
+          "Range_right": [ 1 ]
+
+        },
+        {
+          "Type": "DAMAGE",
+          "Amount": 18
+        },
+        {
+          "Type": "ARMOR",
+          "Amount": 12,
+          "Range_left": [ 0 ],
+          "Range_right": [ 0 ]
+
+        },
+        {
+          "Type": "DAMAGE_IGNORE_ARMOR",
+          "Amount": 15
+        }
+      ]
+   }
+]
+
+
+
+
+
